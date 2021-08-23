@@ -1,0 +1,73 @@
+:root{
+    --primarycolor:#FBBF24
+}
+
+body{
+    background-color: black;
+    color:var(--primarycolor);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container  {
+    border-radius: 2rem;
+    border: 2px solid var(--primarycolor);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin:7% 9% ;
+    /* margin-top: 10%; */
+    max-width: 70%;
+    min-height: 70vh;
+    display: block;    
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 80%;
+    min-height: 20vh;
+    margin: auto;
+    padding:0.5rem;
+}
+
+#translate-btn{
+    text-align: center;
+    margin:auto;
+    margin-top: 1rem;
+    color:white;
+    border-radius: 0.5rem;
+    border: 3px solid var(--primary-color);
+    font-size: large;
+    padding: 0.5rem;
+    background-color: var(--primarycolor);
+    display: flex;
+
+    
+}
+.container button{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#output-txt{
+    box-sizing: border-box;
+    display: block;
+    width: 80%;
+    min-height: 15vh;
+    margin: auto;
+    border: 3px solid var(--primarycolor);
+    background-color: white;
+    padding:0.5rem;
+    margin-bottom: 1rem;
+
+}
