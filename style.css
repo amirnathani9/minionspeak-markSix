@@ -42,7 +42,7 @@ textarea {
     margin-top: 1rem;
     color:white;
     border-radius: 0.5rem;
-    border: 3px solid var(--primary-color);
+    border: 3px solid white;
     font-size: large;
     padding: 0.5rem;
     background-color: var(--primarycolor);
@@ -52,6 +52,12 @@ textarea {
 }
 .container button{
     text-align: center;
+}
+
+#translate-btn:hover {
+    color:var(--primarycolor);
+    border: 3px solid var(--primarycolor) ;
+    background-color: white;
 }
 
 p{
